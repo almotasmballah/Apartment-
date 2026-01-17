@@ -12,7 +12,6 @@ Route::get('/login', function () {
     return view('auth.login');
 })->name('login');
 
-// لا تسمح بدخول هذه الصفحة إلا إذا كان المستخدم مسجلاً
 Route::get('/admin/dashboard', function () {
     return view('admin.dashboard');
 });
